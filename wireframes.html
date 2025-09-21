@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WireFrames</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      header {
+        height: 100px;
+        border: 2px solid grey;
+        border-style: dotted;
+      }
+      header h1 {
+        text-align: center;
+      }
+
+      ul {
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+        margin-top: 20px;
+      }
+      li {
+        list-style: none;
+        border: 2px solid black;
+        border-style: dotted;
+      }
+      .content {
+        display: flex;
+        margin-top: 10px;
+      }
+      .sidebar {
+        height: 90vh;
+        width: 300px;
+        border: 2px solid black;
+        border-style: dotted;
+      }
+
+      .hero-section {
+        height: 90vh;
+        width: 85%;
+        border: 2px solid grey;
+        border-style: dotted;
+      }
+      .hero-section h1 {
+        text-align: center;
+      }
+      footer {
+        margin-top: 20px;
+        height: 30px;
+        width: 100%;
+        border: 2px solid grey dotted;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>WEBSITE HEADING</h1>
+      <nav>
+        <ul>
+          <li>Home</li>
+          <li>About</li>
+          <li>Service</li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="content">
+        <aside class="sidebar">
+          <h2>this is side bar</h2>
+        </aside>
+        <section class="hero-section"><h1>this is hero section</h1></section>
+      </div>
+      <footer>
+        <p>&copy 2025 company</p>
+      </footer>
+    </main>
+  </body>
+</html>
