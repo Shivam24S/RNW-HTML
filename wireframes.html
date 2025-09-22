@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>WireFrames</title>
+    <title>wire frames</title>
     <style>
       * {
         margin: 0;
@@ -12,57 +12,51 @@
         font-family: Arial, Helvetica, sans-serif;
       }
       header {
-        height: 100px;
-        border: 2px solid grey;
+        border: 2px solid gray;
         border-style: dotted;
       }
+
       header h1 {
         text-align: center;
+        margin-top: 10px;
       }
 
       ul {
         display: flex;
         justify-content: center;
-        gap: 50px;
-        margin-top: 20px;
+        gap: 20px;
       }
       li {
         list-style: none;
-        border: 2px solid black;
+        margin: 20px;
+        border: 2px solid gray;
         border-style: dotted;
       }
       .content {
         display: flex;
-        margin-top: 10px;
       }
-      .sidebar {
+      aside {
         height: 90vh;
-        width: 300px;
-        border: 2px solid black;
+        width: 20%;
+        border: 2px solid gray;
         border-style: dotted;
       }
-
-      .hero-section {
-        height: 90vh;
-        width: 85%;
-        border: 2px solid grey;
+      .hero {
+        border: 2px solid gray;
         border-style: dotted;
-      }
-      .hero-section h1 {
-        text-align: center;
       }
       footer {
-        margin-top: 20px;
-        height: 30px;
-        width: 100%;
-        border: 2px solid grey dotted;
         text-align: center;
+        border: 2px solid gray;
+        border-style: dotted;
+        height: 40px;
+        width: 100%;
       }
     </style>
   </head>
   <body>
     <header>
-      <h1>WEBSITE HEADING</h1>
+      <h1>Website Heading</h1>
       <nav>
         <ul>
           <li>Home</li>
@@ -73,14 +67,10 @@
     </header>
     <main>
       <div class="content">
-        <aside class="sidebar">
-          <h2>this is side bar</h2>
-        </aside>
-        <section class="hero-section"><h1>this is hero section</h1></section>
+        <aside><h1>sidebar</h1></aside>
+        <section id="hero"><h1>Hero section</h1></section>
       </div>
-      <footer>
-        <p>&copy 2025 company</p>
-      </footer>
     </main>
+    <footer>&copy company 2025</footer>
   </body>
 </html>
